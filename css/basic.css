@@ -1,0 +1,189 @@
+/*默认样式*/
+img {
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Microsoft YaHei
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+h4, ul, h2 {
+    padding: 0;
+    margin: 0
+}
+
+li {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none
+}
+
+table, td, th, tr {
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse
+}
+
+td, th {
+    text-align: center;
+}
+
+th {
+    height: 29px;
+    line-height: 29px
+}
+
+table {
+    width: 100%
+}
+
+em {
+    color: #6d6d6d;
+    font-size: 12px;
+    font-style: normal
+}
+
+.xinwen {
+    color: #1e96ab;
+    border: 1px solid #1e96ab;
+    font-size: 12px;
+    padding: 3px
+}
+
+.remen {
+    color: #ff3636;
+    border: 1px solid #ff3636;
+    font-size: 12px;
+    padding: 3px
+}
+
+.gonggao {
+    color: #f4be19;
+    border: 1px solid #f4be19;
+    font-size: 12px;
+    padding: 3px
+}
+
+.time {
+    font-size: 12px;
+    color: #b8b9c5;
+    vertical-align: top
+}
+
+.more {
+    color: #999;
+}
+
+.match {
+    font-size: 12px;
+    color: #999999;
+    border: 2px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 0 2px
+}
+
+.more::before {
+    content: '';
+    display: inline-block;
+    background: url("../png/i.png");
+    background-position: 166px 18px;
+    vertical-align: bottom;
+    width: 35px;
+    height: 35px;
+}
+
+.swiper_active {
+    color: #f3c258 !important;
+    background: rgba(255, 255, 255, 0.15)
+}
+
+.news_active {
+    border-bottom: 3px solid #f3c258;
+}
+
+.font {
+    color: #f3c258 !important;
+}
+
+.top_active {
+    background: url("../png/i.png") no-repeat;
+}
+
+.hot::before {
+    display: inline-block;
+    content: '';
+    width: 26px;
+    height: 15px;
+    background: url("../png/i.png") no-repeat;
+    background-position: -159px -71px;
+    vertical-align: center;
+}
+
+.video_mask {
+    background: rgba(0, 0, 0, .3);
+    width: 209px;
+    position: absolute;
+    height: 127px;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s;
+
+}
+
+.play_btn {
+    width: 40px;
+    height: 43px;
+    background: url("../png/i.png");;
+    top: 38px;
+    left: 76px;
+    background-position: -188px -62px;
+    display: block;
+    position: absolute;
+}
+
+.mobile_active {
+    border-bottom: 3px solid white
+}
+
+.icont {
+    display: block;
+    width: 0.8rem;
+    height: 0.74rem;
+
+    background: url("../png/mobile_index.png") no-repeat
+}
+
+.mobile_nav_active {
+    color: #f3c258;
+    border-bottom: 3px solid #f3c258;
+
+}
+
+.icont_mobile{
+    ;display: inline-block;width: 30px;height: 30px;background-size: 450px 546px!important;
+    background: url("../png/mobile_index.png") no-repeat;vertical-align: bottom;
+}
+.icon-shipin{padding-bottom: 3px;margin-right: 3px}
+.fill{background: #4b67af!important;}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 50px
+  }
+
+  body {
+    font-size: 12px
+  }
+}
